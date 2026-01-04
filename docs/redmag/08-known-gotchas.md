@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../../assets/logo.jpg" alt="openMAG logo" width="320" />
+  <img src="../../assets/logo.jpg" alt="openMAG logo" />
 </p>
 
 # Known Gotchas
