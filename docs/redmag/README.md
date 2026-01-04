@@ -4,11 +4,30 @@
 
 # REDMAG Documentation
 
-This section documents how **REDMAG** media works at a technical level and provides
-an educational overview of how compatible SSDs can be prepared and validated.
+This section is a practical, beginner-friendly guide to understanding and validating **REDMAG** media.
 
-This guide focuses on **REDMAG only**. MINIMAG is intentionally excluded and
-documented separately.
+It includes:
+- what REDMAG is and how it’s built internally
+- what the camera checks (validation model)
+- how to safely test and confirm your SSD behaves correctly
+- common pitfalls and recovery strategies
+
+MINIMAG is excluded from this path and documented separately.
+
+## What you will accomplish
+
+By the end of this REDMAG guide, you should be able to:
+
+- choose a practical SSD form factor for REDMAG experimentation
+- read and record your SSD identity and capacity information
+- understand what the camera is validating and why mismatches fail
+- run safe validation tests (format, record, offload, checksum compare)
+- troubleshoot the most common failure modes
+
+## Important limits
+
+- **512GB is the maximum supported REDMAG capacity** in the known whitelist.
+  Larger capacities are not expected to pass the model/capacity checks.
 
 ## Reading order
 
@@ -20,11 +39,6 @@ documented separately.
 6. [MP Tools overview](06-mp-tools-overview.md)
 7. [Adapters and power](07-adapters-and-power.md)
 8. [Known gotchas](08-known-gotchas.md)
-
-## Safety notice
-
-This documentation is educational. Modifying SSDs can permanently damage hardware
-and void warranties. Proceed only if you understand the risks.
 
 
 

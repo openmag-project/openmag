@@ -6,14 +6,24 @@
 
 When a RED camera detects an SSD that does not fully pass validation:
 
-- The media may still be detected
-- Formatting may succeed
-- Recording time is artificially limited
+- the media may still be detected
+- formatting may succeed
+- recording time is artificially limited
 
-This behavior is intentional and designed to restrict the use of
-non-approved media.
+This behavior is intentional and designed to restrict the use of non-approved media.
 
-Properly matching both the model name and capacity removes these limitations.
+## What “restricted recording” looks like
+
+Depending on camera and firmware version, you may see:
+- unexpectedly short record times
+- warnings about media speed or compatibility
+- recording that stops earlier than expected
+
+## What fixes it
+
+For REDMAG, tests indicate you must satisfy both:
+1. a whitelisted model name, and
+2. an exact capacity match between the model string and the drive’s reported capacity
 
 
 

@@ -12,20 +12,32 @@ REDMAG media consists of three primary components:
 
 ## microSATA
 
-microSATA SSDs were used in early REDMAG units but are no longer manufactured.
-Modern replacements typically require adapters, which frequently cause camera
-lockups or instability.
+microSATA SSDs were used in early REDMAG units but are no longer commonly manufactured.
+Modern replacements often require adapters.
+
+**Common downside:** many SATA-to-microSATA adapters introduce instability
+(signal integrity, pin mapping differences, power behavior). Instability often appears as:
+- camera freezes during media detect or format
+- intermittent disconnects
+- random record stops or corrupt clips
 
 ## mSATA
 
-mSATA SSDs are significantly easier to work with:
-- Widely available
-- Better MP Tool support
-- No fragile SATA adapters required
+mSATA SSDs are typically easier to work with:
+- widely available
+- no fragile SATA adapters required (in many builds)
+- broader ecosystem support for identification and testing
 
 For these reasons, **mSATA is currently the recommended approach**.
 
-> Placeholder: hardware photos and PCB diagrams
+## Practical recommendation
+
+If you are new to this work:
+- start with mSATA
+- keep one known-good REDMAG as your baseline
+- document everything (photos, logs, exact part numbers)
+
+> Placeholder: hardware photos, PCB diagrams, and example part numbers
 
 
 

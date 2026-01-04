@@ -11,6 +11,8 @@ Through firmware analysis and testing, REDMAG validation has been observed to ch
 1. SSD model name
 2. SSD capacity
 
+These checks explain why a drive may be detected and formatted but still record with limitations.
+
 ## Model name whitelist
 
 The camera firmware contains a whitelist of approved REDMAG model names.
@@ -32,14 +34,14 @@ The SSD’s reported model string must match one of these entries **exactly**.
 - RED 256GB Rev T2
 - RED 256GB Rev T3
 
-### 512GB models
+### 512GB models (maximum)
 - RED 512GB V1
 - RED 512GB V2
 - RED 512GB V3
 - RED 512GB V4
 
 It is common to use the latest revision (for example, **RED 256GB Rev T3**
-or **RED 512GB V4**), but **any whitelisted entry will work** as long as the
+or **RED 512GB V4**), but **any whitelisted entry can work** as long as the
 reported SSD capacity matches the capacity encoded in the model name **exactly**.
 
 ## Capacity verification
@@ -48,6 +50,20 @@ The camera extracts the capacity value embedded in the model name string
 and compares it against the SSD’s reported capacity.
 
 Any mismatch will trigger recording restrictions.
+
+## What you should record before changing anything
+
+Before you attempt any modifications or experiments, record the SSD’s current identity.
+This is useful for troubleshooting and for community reports.
+
+On Linux or macOS (with smartmontools installed), you can collect basic identify info:
+
+- model string
+- firmware version
+- reported capacity
+- SATA link speed (if available)
+
+> Placeholder: example screenshots for `smartctl` output
 
 
 

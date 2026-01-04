@@ -7,18 +7,35 @@
 REDMAG is RED Digital Cinema’s proprietary SSD-based recording media used in
 RED ONE, EPIC, and SCARLET cameras.
 
-While branded as proprietary media, REDMAG internally uses standard **SATA SSDs**
-connected to the camera through a RED-designed PCB pass-through board.
+At a hardware level, REDMAG units are typically composed of:
 
-That board adapts the SSD form factor and exposes a SATA interface to the camera.
+1. A standard SATA SSD module (most commonly **microSATA** or **mSATA**)
+2. A RED-designed PCB pass-through board
+3. A physical enclosure and connector that mates with the camera
+
+The RED PCB adapts the internal SSD module and presents a SATA device to the camera.
+From the camera’s point of view, it is communicating with a SATA SSD.
+
+## Why this matters
+
+Because the underlying interface is SATA, successful REDMAG replacements require:
+- a SATA device (not NVMe)
+- stable power and signal integrity
+- device identity and capacity values that pass the camera’s validation checks
+
+## Form factors observed
 
 Over the years, REDMAG units have been observed using:
-- microSATA SSD modules
-- mSATA SSD modules
+- **microSATA** SSD modules (older units; scarce today)
+- **mSATA** SSD modules (more available and often easier to work with)
 
-Both types communicate using the SATA protocol.
+Both are still SATA devices.
 
-NVMe-based SSDs are **not compatible** and will not work.
+## What will not work
+
+- **NVMe** drives (M.2 NVMe) — different protocol
+- USB storage presented through adapters — not a native SATA device to the camera
+- “looks similar” connectors that do not provide real SATA signaling
 
 
 
