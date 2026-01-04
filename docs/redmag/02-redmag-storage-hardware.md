@@ -4,40 +4,34 @@
 
 # REDMAG Storage Hardware
 
-REDMAG media consists of three primary components:
+## SATA protocol
 
-1. The SSD itself (microSATA or mSATA)
-2. A RED-designed PCB pass-through adapter
-3. The camera’s SATA interface
+REDMAG uses SATA. USB and NVMe are not supported.
 
-## microSATA
+## Form factors and voltages
 
-microSATA SSDs were used in early REDMAG units but are no longer commonly manufactured.
-Modern replacements often require adapters.
+### microSATA
+- SATA
+- 3.3V
 
-**Common downside:** many SATA-to-microSATA adapters introduce instability
-(signal integrity, pin mapping differences, power behavior). Instability often appears as:
-- camera freezes during media detect or format
-- intermittent disconnects
-- random record stops or corrupt clips
+### mSATA
+- SATA
+- 3.3V
 
-## mSATA
+### 2.5" SATA
+- SATA
+- 5V (external power required)
 
-mSATA SSDs are typically easier to work with:
-- widely available
-- no fragile SATA adapters required (in many builds)
-- broader ecosystem support for identification and testing
+## NAND types
 
-For these reasons, **mSATA is currently the recommended approach**.
+- SLC: rare, very durable
+- MLC: preferred for sustained writes
+- TLC: acceptable if high quality
+- QLC: not recommended
 
-## Practical recommendation
+## DRAM cache
 
-If you are new to this work:
-- start with mSATA
-- keep one known-good REDMAG as your baseline
-- document everything (photos, logs, exact part numbers)
-
-> Placeholder: hardware photos, PCB diagrams, and example part numbers
+SSDs with DRAM cache are strongly recommended for cinema workloads.
 
 
 

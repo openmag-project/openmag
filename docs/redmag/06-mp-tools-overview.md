@@ -2,42 +2,13 @@
   <img src="../../assets/logo.jpg" alt="openMAG logo" />
 </p>
 
-# MP Tools Overview
+# MP Tools Overview (General)
 
-MP (Manufacturing Process) Tools are low-level utilities used by SSD vendors to configure,
-test, and provision drives during manufacturing.
+MP Tools are vendor manufacturing utilities for configuring SSDs.
 
-They can expose settings that normal consumer utilities do not, including device identity,
-capacity configuration, and controller-specific parameters.
+They are controller- and NAND-specific and high risk.
 
-## Why MP Tools are hard to use
-
-MP Tools are rarely “one tool fits all.” They often depend on:
-- SSD controller family and revision
-- NAND type and revision
-- sometimes even PCB layout variants
-
-Even within the same retail SSD model, manufacturers may silently change controller/NAND
-over time, which can break compatibility with previously working tools.
-
-## Risks and realities
-
-MP Tools are high risk:
-- incorrect settings can permanently brick an SSD
-- configuration may be non-reversible without specialized equipment
-- mistakes can lead to unstable media and corrupted footage
-
-## How openMAG helps
-
-This project aims to maintain a community-maintained matrix of:
-- SSD model and hardware revision
-- controller identification
-- NAND identification
-- tested tooling and outcomes (when contributors provide evidence)
-
-This information helps reduce trial-and-error, but does not eliminate risk.
-
-> Placeholder: MP Tool screenshots (redacted where appropriate)
+openMAG documents concepts and observed compatibility, not procedures.
 
 
 
