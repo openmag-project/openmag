@@ -4,17 +4,7 @@
 
 # openMAG REDMAG Guide
 
-**Educational & Research Documentation**
-
-> ⚠️ **Disclaimer**  
-> This guide is provided strictly for educational and research purposes.  
-> Modifying SSD firmware using manufacturer production (MP) tools is inherently risky and can permanently damage hardware.  
-> You assume all responsibility for any data loss, device failure, or equipment damage.  
->  
-> This project is not affiliated with or endorsed by RED Digital Cinema.
-
-
-## Contents
+### Table of Contents
 
 1. [Problem Statement](01-problem-statement.md)
 2. [Overview](02-overview.md)
