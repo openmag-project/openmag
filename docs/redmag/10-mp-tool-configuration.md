@@ -145,7 +145,7 @@ Right: RED  64GB Rev T1  (two spaces - will work!)
 
 #### Capacity
 - Must match the selected RED model exactly. Example, if you are using `RED 512GB V4` your capacity MUST be 512GB.
-- In SMI tools:
+- In the Capacity section:
   - Select `IDEMA`
   - Choose the exact capacity from the dropdown
 
