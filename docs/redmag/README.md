@@ -1,16 +1,10 @@
+<p align="center">
+  <img src="../../assets/logo.jpg" alt="openMAG logo" />
+</p>
+
 # openMAG REDMAG Guide
 
-**Educational & Research Documentation**
-
-> ⚠️ **Disclaimer**  
-> This documentation is provided strictly for educational and research purposes.  
-> Modifying SSD firmware, identity strings, or production parameters using manufacturer “MP Tools” is inherently risky and can permanently damage hardware.  
-> You assume all responsibility for any outcome, including data loss, device failure, or equipment damage.  
->  
-> This project is not affiliated with or endorsed by RED Digital Cinema.
-
-
-## Table of Contents
+### Table of Contents
 
 - [Overview](overview.md)
 - [SSD Guide](ssd-guide.md)
