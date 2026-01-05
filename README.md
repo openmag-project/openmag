@@ -60,6 +60,12 @@ Working with SSD firmware, low-level identifiers, adapters, and camera media can
 You are responsible for your equipment, your data, and compliance with all applicable laws.
 Read the disclosures in `legal/` before attempting experiments.
 
+## Projects
+
+- [REDMAG](docs/redmag/README.md)
+- [MINIMAG](docs/minimag/README.md)
+
+
 ## Repository structure (high level)
 
 - `docs/` — the educational content and guided learning paths  
