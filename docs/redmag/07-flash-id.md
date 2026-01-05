@@ -1,18 +1,8 @@
-# openMAG REDMAG Guide
+<p align="center">
+  <img src="../../assets/logo.jpg" alt="openMAG logo" />
+</p>
 
-**Educational & Research Documentation**
-
-> ⚠️ **Disclaimer**  
-> This guide is provided strictly for educational and research purposes.  
-> Modifying SSD firmware using manufacturer production (MP) tools is inherently risky and can permanently damage hardware.  
-> You assume all responsibility for any data loss, device failure, or equipment damage.  
->  
-> This project is not affiliated with or endorsed by RED Digital Cinema.
-
-
----
-
-## 4. Identifying Controller and NAND (FLASH_ID)
+## Identifying Controller and NAND (FLASH_ID)
 
 With the SSD connected and detected by Windows:
 

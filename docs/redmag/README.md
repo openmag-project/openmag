@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../../assets/logo.jpg" alt="openMAG logo" />
+</p>
+
 # openMAG REDMAG Guide
 
 **Educational & Research Documentation**
