@@ -1,6 +1,6 @@
 # Disclaimer
 
-openMAG is provided for educational and research purposes only.
+The openMAG Project is provided for educational and research purposes only.
 
 Working with SSDs, firmware, adapters, and camera media involves inherent risks,
 including but not limited to:

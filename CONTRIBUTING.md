@@ -1,8 +1,8 @@
 # Contributing to openMAG
 
-Thank you for your interest in contributing to openMAG.
+Thank you for your interest in contributing to the openMAG Project.
 
-openMAG is an educational, research-focused open-source project. Contributions are welcome
+The openMAG Project is an educational, research-focused open-source project. Contributions are welcome
 as long as they align with the project's goals of safety, legality, and technical clarity.
 
 ## What we welcome

@@ -1,6 +1,6 @@
 # Code of Conduct
 
-openMAG is committed to maintaining a respectful, inclusive, and professional community.
+The openMAG Project is committed to maintaining a respectful, inclusive, and professional community.
 
 ## Expected behavior
 

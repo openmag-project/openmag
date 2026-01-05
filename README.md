@@ -5,18 +5,18 @@
 <br />
 <br />
 
-openMAG is an open-source, community-driven educational project focused on understanding cinema camera SSD media,
+The openMAG Project is an open-source, community-driven educational project focused on understanding cinema camera SSD media,
 with an emphasis on REDMAG and MINIMAG, and documenting the concepts and validation workflows involved.
 
 This repository is educational and research oriented. It is not affiliated with or endorsed by RED Digital Cinema.
 
-## Why openMAG exists
+## Why openMAG Project Exists
 
 Many cinema cameras rely on approved, proprietary media. Over time, that media becomes harder to replace, more expensive,
 or simply unavailable. When original SSD-based media starts to fail, creators can be left with fewer options:
 pay escalating prices for aging stock, risk unreliable used media, or retire otherwise functional cameras.
 
-openMAG exists to preserve long-term usability of supported camera platforms by documenting how media works at a technical level,
+The openMAG Project exists to preserve long-term usability of supported camera platforms by documenting how media works at a technical level,
 and by sharing research that helps the community understand:
 
 - how SSDs identify themselves and report capabilities
@@ -29,7 +29,7 @@ openMAG applies that same mindset to cinema SSD media—education first, evidenc
 
 ## Who we are
 
-openMAG is built by a community of filmmakers, engineers, and hardware enthusiasts who care about:
+The openMAG Project is built by a community of filmmakers, engineers, and hardware enthusiasts who care about:
 - extending the useful life of professional tools
 - reducing single-vendor dependency through knowledge and documentation
 - sharing research openly so others can learn and contribute
@@ -60,17 +60,9 @@ Working with SSD firmware, low-level identifiers, adapters, and camera media can
 You are responsible for your equipment, your data, and compliance with all applicable laws.
 Read the disclosures in `legal/` before attempting experiments.
 
-## Start here
-
-- Safety first (shared): `docs/shared/00-introduction/safety-first.md`
-- REDMAG docs: `docs/redmag/00-start-here/README.md`
-- MINIMAG docs: `docs/minimag/README.md`
-
 ## Repository structure (high level)
 
 - `docs/` — the educational content and guided learning paths  
-- `research/` — working notes, hypotheses, and experiments (clearly labeled)  
-- `tools/` — helper utilities for parsing logs, checksums, and repeatable analysis  
 - `legal/` — disclosures, trademarks, and liability limitations  
 - `assets/` — images and diagrams (including the logo)
 
