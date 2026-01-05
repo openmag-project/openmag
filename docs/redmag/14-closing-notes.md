@@ -12,18 +12,13 @@
 
 ---
 
-## High-Level Workflow
+## Closing Notes
 
-1. Research compatible SSD hardware  
-2. Identify controller and NAND  
-3. Locate and validate the correct MP Tool  
-4. Prepare a Windows-based flashing environment  
-5. Configure SSD identity and capacity  
-6. Flash firmware/configuration  
-7. Validate functionality in-camera  
-8. Document results and iterate
+This process blends hardware research, firmware tooling, and controlled experimentation.  
+Patience, documentation, and risk awareness are essential.
+
+**Never test on your only SSD.**
 
 ---
 
-⬅️ Prev: [Overview](02-overview.md)  
-➡️ Next: [SSD Hardware Research](04-ssd-hardware-research.md)
+⬅️ Prev: [Next Steps & Future Work](13-next-steps.md)

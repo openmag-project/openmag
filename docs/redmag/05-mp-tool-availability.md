@@ -1,14 +1,37 @@
-# MP Tool Availability Assessment
+# openMAG REDMAG Guide
 
-Confirm that a compatible MP Tool exists **before** purchasing an SSD.
+**Educational & Research Documentation**
 
-Common research sources:
-- USBDEV
-- Flashinfo
-- LCB
+> ⚠️ **Disclaimer**  
+> This guide is provided strictly for educational and research purposes.  
+> Modifying SSD firmware using manufacturer production (MP) tools is inherently risky and can permanently damage hardware.  
+> You assume all responsibility for any data loss, device failure, or equipment damage.  
+>  
+> This project is not affiliated with or endorsed by RED Digital Cinema.
 
-This step is often the most time-consuming.
 
 ---
+
+## 2. MP Tool Availability Assessment
+
+Once the controller and NAND are known:
+
+- Confirm that an appropriate MP Tool exists **before purchasing**
+- Typical research sources include:
+  - USBDEV
+  - Flashinfo
+  - LCB
+  - Archived vendor tools
+  - Community research posts
+
+Finding the correct MP Tool is often the **most time-consuming step**.
+
+> ⚠️ Even when an MP Tool exists, it may:
+> - Only support specific NAND revisions
+> - Require undocumented configuration
+> - Fail silently or brick the SSD
+
+---
+
 ⬅️ Prev: [SSD Hardware Research](04-ssd-hardware-research.md)  
-➡️ Next: [Environment & Hardware](06-environment-hardware.md)
+➡️ Next: [Required Environment & Hardware](06-environment-hardware.md)

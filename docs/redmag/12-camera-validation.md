@@ -12,18 +12,20 @@
 
 ---
 
-## High-Level Workflow
+## 9. Camera Validation
 
-1. Research compatible SSD hardware  
-2. Identify controller and NAND  
-3. Locate and validate the correct MP Tool  
-4. Prepare a Windows-based flashing environment  
-5. Configure SSD identity and capacity  
-6. Flash firmware/configuration  
-7. Validate functionality in-camera  
-8. Document results and iterate
+1. Disconnect the SSD from the USB adapter
+2. Install it onto the RED PCB
+3. Insert into the camera
+4. Power on and test
+
+### Success Criteria
+
+- No “Unauthorized Media” warning
+- Media formats successfully
+- Stable recording behavior
 
 ---
 
-⬅️ Prev: [Overview](02-overview.md)  
-➡️ Next: [SSD Hardware Research](04-ssd-hardware-research.md)
+⬅️ Prev: [Flashing the SSD](11-flashing.md)  
+➡️ Next: [Next Steps & Future Work](13-next-steps.md)

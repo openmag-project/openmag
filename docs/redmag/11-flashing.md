@@ -12,18 +12,21 @@
 
 ---
 
-## High-Level Workflow
+## 8. Flashing the SSD
 
-1. Research compatible SSD hardware  
-2. Identify controller and NAND  
-3. Locate and validate the correct MP Tool  
-4. Prepare a Windows-based flashing environment  
-5. Configure SSD identity and capacity  
-6. Flash firmware/configuration  
-7. Validate functionality in-camera  
-8. Document results and iterate
+1. Save the configuration
+2. Return to the main MP Tool screen
+3. Select **Flash**
+
+### Expected Results
+
+- **PASS** indicates a successful operation
+- Errors may appear before flashing completes
+- Failure does **not** always prevent bricking
+
+> ⚠️ There is always a non-zero risk of permanent failure.
 
 ---
 
-⬅️ Prev: [Overview](02-overview.md)  
-➡️ Next: [SSD Hardware Research](04-ssd-hardware-research.md)
+⬅️ Prev: [MP Tool Configuration](10-mp-tool-configuration.md)  
+➡️ Next: [Camera Validation](12-camera-validation.md)
