@@ -33,8 +33,8 @@ As official REDMAG media becomes increasingly scarce, expensive, or discontinued
 
 Through firmware analysis and hands-on testing, REDMAG acceptance is observed to depend primarily on **two values**:
 
-- **SSD Model Number** (ATA Identify “Model” string)
-- **Reported Capacity** (logical addressable capacity exposed by the SSD)
+- **SSD Model Number** (ATA Identify “Model” string) (example: RED 512GB V4)
+- **Reported Capacity** (logical addressable capacity exposed by the SSD) (example: 512GB)
 
 The camera firmware extracts capacity encoded in the model string (e.g., “256GB”) and compares it to the drive’s reported capacity. These must match exactly. That's it! Nothing more!
 
