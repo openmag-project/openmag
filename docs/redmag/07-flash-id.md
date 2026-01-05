@@ -2,7 +2,7 @@
   <img src="../../assets/logo.jpg" alt="openMAG logo" />
 </p>
 
-## Identifying Controller and NAND (FLASH_ID)
+## Identifying Controller and NAND
 
 It's recommended you download the SMI Flash ID tool. This will scan your connected SSD and show the Controller, NAND, Firmware, and other info. Very helpful. You can download this tool here:
 
