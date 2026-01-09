@@ -44,6 +44,19 @@ https://www.usbdev.ru/files/smi/sm2259mptool/
 
 ## 3. Implementation Steps
 
+1. Run the SM Flash Id Tool. This tool scans your SSD and identifies the Controller, NAND, and Firmware. All of this information is important when locating the correct MP Tool.
+2. Once you have located the correct MP Tool, lanuch it.
+3. Once the MP Tool has launched, you will need to make sure the SSD is connected and hit SCAN. This will locate the connected SSD by looking at all your connected SSD's and seeing which ones have the correct Controller and NAND for the MP Tool. If the tool has successfully found the SSD, you will see the ssd listed in the list.
+4. Click on Parameters tab.
+5. Click on Config
+6. Enter password. The password will most likely always be two spaces, then hit enter. All the fields should now be editable.
+7. Update the Product Name field with one of the options in the whitelisted names.
+8. Update the Capacity to match the capcity listed in the whitelisted name you chose. YOu will select `IDEMA` from the dropdown. THe you will select the exact matching size.
+9. Click Save Config.
+10. Click on the first tab and click Flash.
+
+Note, this is where things can go wrong. If the controller and nand are not compatable with the MP Tool, you will brick the SSD. Luckily, when I have something incorrect, the MP Tool let me know and didn't proceed with the flash, but that is not guarenteed.
+
 ### Phase 1: Hardware Recognition (ROM Mode)
 
 Because the KC600 features **AES-256 hardware encryption**, the controller may "lock" the firmware interface if it detects a critical error. To bypass this for a clean re-initialization:
