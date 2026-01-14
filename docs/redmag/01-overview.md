@@ -56,5 +56,4 @@ Key observations:
 ---
 
 ⬅️ Prev: [Contents](README.md)  
-➡️ Next: [SSD Guide](ssd-guide.md)
-
+➡️ Next: [SSD Guide](02-ssd-guide.md)

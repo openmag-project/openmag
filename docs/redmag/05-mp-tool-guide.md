@@ -116,6 +116,5 @@ Never flash your only drive.
 - Only then install into the camera setup for validation testing
 ---
 
-⬅️ Prev: [Capacity Overview](capacity-overview.md)  
+⬅️ Prev: [Capacity Overview](04b-capacity-overview.md)  
 ➡️ Next: [Working Example](working-example.md)
-

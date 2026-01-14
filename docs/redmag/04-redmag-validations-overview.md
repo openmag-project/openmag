@@ -55,10 +55,9 @@ For every test run, capture:
 
 ## This section’s subpages
 
-- [Whitelist Overview](whitelist-overview.md)
-- [Capacity Overview](capacity-overview.md)
+- [Whitelist Overview](04a-whitelist-overview.md)
+- [Capacity Overview](04b-capacity-overview.md)
 ---
 
-⬅️ Prev: [Hardware Guide](hardware-guide.md)  
-➡️ Next: [Whitelist Overview](whitelist-overview.md)
-
+⬅️ Prev: [Hardware Guide](03-hardware-guide.md)  
+➡️ Next: [Whitelist Overview](04a-whitelist-overview.md)

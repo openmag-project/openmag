@@ -92,6 +92,5 @@ Ensure:
 Even when SATA identity reads work on data-only, real-world recording reliability should be tested with the full camera setup you intend to use.
 ---
 
-⬅️ Prev: [SSD Guide](ssd-guide.md)  
-➡️ Next: [REDMAG Validations Overview](redmag-validations-overview.md)
-
+⬅️ Prev: [SSD Guide](02-ssd-guide.md)  
+➡️ Next: [REDMAG Validations Overview](04-redmag-validations-overview.md)

@@ -53,6 +53,5 @@ Capture:
 A good habit is to paste tool output into your notes so spacing and numbers are preserved.
 ---
 
-⬅️ Prev: [Whitelist Overview](whitelist-overview.md)  
-➡️ Next: [MP Tool Guide](mp-tool-guide.md)
-
+⬅️ Prev: [Whitelist Overview](04a-whitelist-overview.md)  
+➡️ Next: [MP Tool Guide](05-mp-tool-guide.md)
