@@ -146,6 +146,5 @@ Right: RED  64GB Rev T1  (two spaces - will work!)
 ```
 ---
 
-⬅️ Prev: [REDMAG Validations Overview](redmag-validations-overview.md)  
-➡️ Next: [Capacity Overview](capacity-overview.md)
-
+⬅️ Prev: [REDMAG Validations Overview](04-redmag-validations-overview.md)  
+➡️ Next: [Capacity Overview](04b-capacity-overview.md)

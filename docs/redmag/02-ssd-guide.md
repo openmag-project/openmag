@@ -112,6 +112,5 @@ A cinema-friendly SSD is:
 - test multiple power cycles.
 ---
 
-⬅️ Prev: [Overview](overview.md)  
-➡️ Next: [Hardware Guide](hardware-guide.md)
-
+⬅️ Prev: [Overview](01-overview.md)  
+➡️ Next: [Hardware Guide](03-hardware-guide.md)

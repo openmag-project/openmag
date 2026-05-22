@@ -6,13 +6,13 @@
 
 ### Table of Contents
 
-- [Overview](overview.md)
-- [SSD Guide](ssd-guide.md)
-- [Hardware Guide](hardware-guide.md)
-- [REDMAG Validations Overview](redmag-validations-overview.md)
-  - [Whitelist Overview](whitelist-overview.md)
-  - [Capacity Overview](capacity-overview.md)
-- [MP Tool Guide](mp-tool-guide.md)
+- [Overview](01-overview.md)
+- [SSD Guide](02-ssd-guide.md)
+- [Hardware Guide](03-hardware-guide.md)
+- [REDMAG Validations Overview](04-redmag-validations-overview.md)
+  - [Whitelist Overview](04a-whitelist-overview.md)
+  - [Capacity Overview](04b-capacity-overview.md)
+- [MP Tool Guide](05-mp-tool-guide.md)
 - [Working Example](working-example.md)
 
 **Single-page version:** [full-content.md](full-content.md)

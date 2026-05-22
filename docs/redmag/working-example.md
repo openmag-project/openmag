@@ -110,5 +110,4 @@ assets/
 ```
 ---
 
-⬅️ Prev: [MP Tool Guide](mp-tool-guide.md)
-
+⬅️ Prev: [MP Tool Guide](05-mp-tool-guide.md)
