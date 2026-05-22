@@ -67,7 +67,7 @@ RED 512GB V4
 
 ## “SSD” designation models
 
-**Note:** These include an `SSD` suffix and may include a trailing space after `SSD`.
+**Note:** These include an `SSD` suffix and may include a trailing space after `SSD`. These do not work, stick with the REV versions.
 
 ```
 RED 55GB SSD 
@@ -99,7 +99,6 @@ These are the most practical targets based on common capacities and “newest”
 RED 256GB Rev T3    ← Newest revision (recommended)
 RED 256GB Rev T2
 RED 256GB Rev T1
-RED 256GB SSD       ← SSD variant (not tested yet)
 ```
 
 ### 512GB
@@ -108,7 +107,6 @@ RED 512GB V4        ← Newest revision (recommended)
 RED 512GB V3
 RED 512GB V2
 RED 512GB V1
-RED 512GB SSD       ← SSD variant (not tested yet)
 ```
 
 ### 128GB
@@ -116,7 +114,6 @@ RED 512GB SSD       ← SSD variant (not tested yet)
 RED 128GB Rev T3    ← Newest revision (recommended)
 RED 128GB Rev T2
 RED 128GB Rev T1
-RED 128GB SSD       ← SSD variant (not tested yet)
 ```
 
 ---
