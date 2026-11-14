@@ -4,6 +4,10 @@
 
 # openMAG MINIMAG Guide
 
+This guide is adapted from the PDF shared by [u/Educational_Sand_726](https://www.reddit.com/user/Educational_Sand_726/) in the r/RedCamera post [“MINI-MAG: How to use your own SSD”](https://www.reddit.com/r/RedCamera/comments/1sbjlgn/minimag_how_to_use_your_own_ssd/). Credit for the original guide goes to its creator; openMAG has reworded and reorganized it for this repository. This adaptation does not imply the creator's endorsement.
+
+If the original creator would like this adaptation or its reproduced figure removed, please [open an issue](https://github.com/openmag-project/openmag/issues) so the maintainers can arrange removal. This note does not grant permission to reuse the original material or change its licensing.
+
 Single-page edition. [Chapter contents and source coverage](README.md).
 
 ## Table of Contents
@@ -65,7 +69,7 @@ The source describes model identity and capacity as the main camera checks. It a
 
 ### Source and editorial notes
 
-Adapted from the supplied 16-page `minimag-guide.pdf`, titled **RED 480GB MINI-MAG® SPOOFING — How to Use Any SATA Drive With Your DSMC2**. The PDF was supplied locally; no public source URL or author is identified in this port. Its configuration figure is reproduced in the MP Tool chapter. Repeated page footers and broken PDF numbering have been replaced by the repository's chapter navigation.
+Adapted from the supplied 16-page `minimag-guide.pdf`, titled **RED 480GB MINI-MAG® SPOOFING — How to Use Any SATA Drive With Your DSMC2**. The PDF was found through the Reddit post credited at the beginning of this guide, where u/Educational_Sand_726 shared it with the community. Its configuration figure is reproduced in the MP Tool chapter. Repeated page footers and broken PDF numbering have been replaced by the repository's chapter navigation.
 
 The port retains the source's profile and workflow while distinguishing reported results from unverified requirements. It corrects the HPA example's enabled/disabled interpretation, adds explicit drive identification and post-power-cycle verification, and does not carry forward the source's generic sleep/cable-unplug “unfreeze” procedure as a universal remedy. A DRAM chip is retained as a requirement of this workflow, without presenting it as a guarantee of speed or the only cause of dropped frames.
 

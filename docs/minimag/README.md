@@ -4,6 +4,10 @@
 
 # openMAG MINIMAG Guide
 
+This guide is adapted from the PDF shared by [u/Educational_Sand_726](https://www.reddit.com/user/Educational_Sand_726/) in the r/RedCamera post [“MINI-MAG: How to use your own SSD”](https://www.reddit.com/r/RedCamera/comments/1sbjlgn/minimag_how_to_use_your_own_ssd/). Credit for the original guide goes to its creator; openMAG has reworded and reorganized it for this repository. This adaptation does not imply the creator's endorsement.
+
+If the original creator would like this adaptation or its reproduced figure removed, please [open an issue](https://github.com/openmag-project/openmag/issues) so the maintainers can arrange removal. This note does not grant permission to reuse the original material or change its licensing.
+
 ### Table of Contents
 
 - [Overview](01-overview.md)
